@@ -1,0 +1,15 @@
+target/generated-sources/
+target/surefire/
+target/screenshots/
+target/test-classes
+/target/
+target/test-classes/
+target/
+
+Config.properties
+
+src/test/resources/testdata/Data.properties
+
+
+
+/nbproject/

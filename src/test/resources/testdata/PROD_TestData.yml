@@ -1,0 +1,863 @@
+ProjectName: MindTap
+SSO_TOKEN_URL: http://ws.cengage.com/ssows/rest/getToken
+PRODUCT_URL: http://ng.cengage.com/nb/service/launch
+base_url: http://ng.cengage.com/static/nb/login.html
+environment: http://ng.cengage.com
+sso_url: http://login.cengage.com/
+knewton_LMS_URL: https://cengage.instructure.com/
+
+users:
+  admin:
+    username: m.prod.admin@swlearning.com
+    password: A111111
+  adminChemistry:
+    username: nj_inst_admin@qaittest.com
+    password: A123456
+  knewtonLMSAndersonInst:
+    username: inst_knewton01@swlearning.com
+    password: A111111
+  knewtonLMSAndersonStud:
+    username: stu_knewton01@swlearning.com
+    password: A111111
+  analyticsAndersonInst:
+    username: inst_knewton07@swlearning.com
+    password: A111111
+  analyticsAndersonStud:
+    username: stu_knewton07@swlearning.com
+    password: A111111
+  knewtonLMSGulatiInst:
+    username: inst_mtc1612@selrarning.com
+    password: A111111
+  knewtonLMSGulatiStud:
+    username: stu_mtc1612@selrarning.com
+    password: A111111
+  knewtonGulatiInstALS:
+    username: inst_knewton04@swlearning.com
+    password: A111111
+  knewtonGulatiStudALS:
+    username: stu_knewton04@swlearning.com
+    password: A111111
+  analyticsGulatiInst:
+    username: inst_knewton04@swlearning.com
+    password: A111111
+  analyticsGulatiStud:
+    username: stu_knewton04@swlearning.com
+    password: A111111
+  knewtonGulatiInstCXP:
+    username: inst_knewton09@swlearning.com
+    password: A111111
+  knewtonGulatiStudCXP:
+    username: stu_knewton02@swlearning.com
+    password: A111111
+  knewtonInstructor:
+    username: inst_knewton123@swlearning.com
+    password: A111111
+  knewtonStudent:
+    username: stu_knewton123@swlearning.com
+    password: A111111
+  knewtonLMSInst:
+    username: mlinstruct11
+    password: mindlinks
+  knewtonLMSStud:
+    username: mlstudent16
+    password: mindlinks  
+  instructor:  
+    Name: Instructor Automation
+    username: inst_automation@swlearning.com
+    password: A111111
+  instructornew:
+    username: mt_inst_12nov@swlearning.com
+    password: A111111
+  studentnew:
+    username: mt_stud_12nov@swlearning.com
+    password: A111111
+  instructor1:  
+    username: automation_inst@swlearning.com
+    password: A111111
+  student:
+    Name: student prod
+    username: student_april_2016@swlearning.com
+    password: A111111
+  student1:  
+    username: student_april_2016@swlearning.com
+    password: A111111  
+    name: 2016, student1
+  TA:  
+    username: kj.stud@qaittest.com
+    password: A111111
+  studentDashboard:  
+    username: stu_mt111@swlearning.com
+    password: A111111  
+    name: 2016, student1
+  vendor:
+    username: mt_automation1@swlearning.com
+    password: A111111  
+  productionUser:
+      username: productionmindtap@gmail.com    
+      password: A111111
+  editor:
+      username: mt_automation@swlearning.com
+      password: A111111
+  reviewer:
+      username: mt_inst_automation3@swlearning.com
+      password: A111111   
+  courseCare:
+      username: kz.inst@swlearning.com
+      password: A111111
+  teachingAssistant:
+      username: mt10_ta_1020@swlearning.com
+      password: A111111
+  coInstructor:
+      username: inst24_mtx_240615@qaittest.com
+      password: A111111
+  TA1:
+      username: ta_automation@swlearning.com
+      password: A111111
+  SAMInst:    
+      username: inst1_aug15@qait.com
+      password: A111111
+      
+  studentInApps:  
+    Name: student prod
+    username: student_april_2016@swlearning.com
+    password: A111111
+  
+  studentInAppsLL:  
+    Name: student InApps
+    username: inappsprod@swlearning.com
+    password: A111111   
+Books:
+    master:
+        masterName: Automation master Test Book
+        unitName: Test:The Beginning of the End
+        description: Created by automation script
+        coreTextISBN: 9781133314677
+        mode1: course
+        mode2: reader
+        ProvisionAppsRegistry:
+            assignmentAppProvision: Assignment
+            algAppProvision: ALG 
+     
+    readerMode:
+        master: "MindTap Reader for Rosenblatt"
+        Course: "Rosenblatt_Systems Analysis and Design, 10e_RM"
+        ISBN : 9781285394480
+        coreTextISBN: 9781285171340
+        imgaeSourse: "http://college.cengage.com/nextbook/shared/history/norton_9780495916239/images/9780495916239_0099-t2.jpg"            
+    readermaster:
+        masterName: Ehrlich_Medical Terminology for Health Professionals_7e_RM
+        masterSSO: 9781285037509
+    course:
+        courseName: Mankiw
+        coreTextISBN: 9780538453059
+        ISBN: 9781133354017
+        courseKey: MTPPD8LPLDWR 	  
+        appName: atp
+        QuestionCount: 100
+        AttemptQueCount: 6
+        customUnit: Automation Test Unit
+        customUnitEdit: Automation Test Unit Edit
+        customFolder: Automation Test Folder
+        customFolderEdit: Automation Test Folder Edit
+        customUnitDescription: Unit Created By Automation Script
+        customUnitDescriptionEdit: Unit Created By Automation Script Edit
+        activityUnit: "Chapter 1 Pre-Lecture: Ten Principles of Economics (DO NOT EDIT)"
+        chapterName: "1:Ten Principles of Economics"
+    courseWebLink:
+        bookName: Mankiv - Automation Test Book - ATP
+        coreTextISBN: 9780538453059
+        ISBN: 9781133354017
+        courseKey: MTPPD8LPLDWR
+        name: Web Link Activity
+        url: http://www.cnn.com
+        text: Created by Automation Script
+        title: Distinct Web Link Activity
+        anotherURL: http://www.google.com
+        unitName: "Chapter 1 Pre-Lecture: Ten Principles of Economics" 
+        chapterName: "Pre-Lecture: Chapter 1 Learning Objectives" 
+    knewtoncourse:
+        courseName: Andersen_Course27
+        coreTextISBN: 9781285431321
+        ISBN: 9781305493032
+        courseKey: MTPNLQRP0HZ0
+        activityUnit: "Andersen/Taylor: Sociology: The Essentials"
+        activityName: "Think About The Sociological Perspective"
+        chapterName: "Chapter 1: The Sociological Perspective"
+        inlineActivity: "Think about The Sociological Perspective"
+        studyCenter: "Study Center "
+    courseKnewtonGulatiALS:
+        courseName: "alscourse_8june"
+        courseKey: "MTPNNKQP4HGT"
+        ISBN: 9781305584143
+        coreTextISBN: "9780538478465"
+        productNameGulati: "Gulati: Management, 1e"
+        productNameGulati1: "SAA"
+        activitySimpleAssessGulati: "BestBest Score Activity"
+        student: "Student02, Ritesh"
+        ALSReleaseActivity: "ALS Release SAA"
+        studentALS: "Student04, Ritesh" 
+    courseGulatiAnalytics:
+        courseName: "alscourse_8june"
+        courseKey: "MTPNNKQP4HGT"
+        ISBN: 9781305584143
+        coreTextISBN: "9780538478465"
+        productNameGulati: "Gulati: Management, 1e"
+        productNameGulati1: "SAA"
+        activitySimpleAssessGulati: "BestBest Score Activity"
+        student: "Student02, Ritesh"
+        AnalyticsReleaseActivity: "Gulati Analytics Activity"
+        studentALS: "Student04, Ritesh"
+    courseKnewtonGulatiCXP:
+        courseName: "GULATI_CXP_STAGE_AUTOMATIONCOURSE"
+        courseKey: "MTPP107P4VMR"
+        ISBN: 9781305584143
+        coreTextISBN: "9780538478465"
+        productNameGulati: "Gulati: Management, 1e"
+        productNameGulati1: "SAA"
+        activitySimpleAssessGulati: "BestBest Score Activity"
+        student: "Student02, Ritesh"
+        ALSReleaseActivity: "ALS Release SAA"
+        studentALS: "Student04, Ritesh"
+        knewtonStudent: "Student02, Knewton"
+    
+    courseNetTutor:
+        courseName: AutomationMedical
+        coreTextISBN: 9781418072520
+        ISBN: 9781133354215
+        courseKey: MTPN2B3P4QRB
+        glossaryTerm: "abdominal cavity"
+    courseReader:
+        courseName: Mankiw1
+        coreTextISBN: 9780538453059
+        ISBN: 9781133354017
+        courseKey: MTPP3WRP9PDH
+        appName: atp
+        QuestionCount: 100
+        AttemptQueCount: 6
+        customUnit: Automation Test Unit
+        customUnitEdit: Automation Test Unit Edit
+        customFolder: Automation Test Folder
+        customFolderEdit: Automation Test Folder Edit
+        customUnitDescription: Unit Created By Automation Script
+        customUnitDescriptionEdit: Unit Created By Automation Script Edit
+        helpOverlayPrint: Print just this section in a printer friendly format. The ability to print full chapters is not supported.
+        looseLeafText: Save your money, paper and ink! A low-cost, loose-leaf version of your textbook may be available.
+    courseChemistry:
+        clhmCourseKey: "MTPQPB4N1XVL"
+        clhmCourseName: "Chem_ClhmAutomation"
+        courseName: "Chemistry_Automation2"
+        cxpCourseName: "Chemistry_Automation3"
+        courseNameRelese: "Chemistry_Release"
+        releseCourseKey: "MTPN9VGP0VTS"
+        coreTextISBN: "9781305657557"
+        MathReviewActivity: "Math Review Mastery"
+        ReviewActivity : "1 Review"
+        courseKey: "MTPN7N6P0Z5C"
+        cxpCourseKey: "MTPPB9DP8X43"
+        ISBN: "9781305657571"
+        weeknumber: week 44
+        QuizActivity: "Units 1 - 4 Quiz"
+        activityTutored: "1.1b Measuring Matter"
+        activityIntroAndQuickPrep: "1 Introduction and Quick Prep"
+        studentName: "prod, student"
+        MessageTitle: "MessageCenter"
+        ProgressTitle: "Progress"
+        DictionaryTitle: "Merriam-Webster"
+        GlossaryTitle: "Glossary"
+        FullbookTitle: "Reader"
+        ChemRefTitle: "ChemistryReference"
+        FlashcardTitle: "FlashCard"
+        StudycenterTitle: "StudyCenter"
+        quickPrepSmoke : "1 Introduction and Quick Prep"
+        RssTitle: "Rssfeed"
+        preCourseSurveyActivity: "General Chemistry Pre-Course Survey"
+        MasteryActivity: "1.2 Mastery"
+        AddTutoredOfUnit : "Chemistry: Matter on the Atomic Scale"
+        AddTutoredOfUnitChapter1 : "Introduction to Chemistry"
+        IntroductionActivity : "System Setup"
+        QuizForChem : "Quizzes"
+        QuizActivity1 : "1 - 4 Quiz"
+        QuizActivity2 : "Units 1 - 4 Quiz"        
+        Review : "Math Review"
+        MathReviewActivity1 : "Math Review"
+        AddIntroductionUnit : "Introduction to Chemistry"
+        PrebuiltMasteryGroupsActivity : "1.1 Mastery"
+        CoursePrepUnit : "Cengage: MTx Chemistry Course Prep Prebuilt, 1e (mtng_chemv2qp)"
+        CoursePrepActivity : "Quick Prep v2 for General Chemistry"
+        InteractiveNarrativeActivity : "1.1b Measuring Matter"
+        QuestionsActivity : "Classify objects as macroscopic, microscopic, or particulate"
+        SimpleAssessmentActivity : "1 Introduction and Quick Prep"
+        activityTutoredRegression: "1.1b Measuring Matter_Regression"
+        activityIntroAndQuickPrepRegression: "1 Introduction and Quick Prep_Regression"
+        activityIntroduction: "System Setup"
+        dueMonth: "August"
+        dueYear : "2017"
+        dueDate : "8"
+        ReviewActivity1CXP : "1 Review"
+        ChallengeActivity : "1 Challenge"
+        chemistryIntroAndQuickPrepUnitname: "1: Chemistry: Matter on the Atomic Scale"
+        conceptualTutored: "1.1a The Scale of Chemistry"
+        
+    courseInApps:
+        courseName: Mankiw
+        coreTextISBN: 9780538453059
+        ISBN: 9781133354017
+        courseKey: MTPPD8LPLDWR 
+        text: Created by Automation Script
+        
+    courseInAppsLL:
+        courseName: InAppsTest
+        coreTextISBN: 9780495830207
+        ISBN: 9781285512099
+        courseKey: MTPPJVCP8KNL 
+        text: Created by Automation Script
+        
+    courseAplia:
+        courseName: courseAplia
+        coreTextISBN: 9781111831561
+        ISBN: 9781285381060 
+        courseKey: MTPP5K8P1T3D
+    
+    courseCnow:
+        courseName: Automation_CNow_test
+        coreTextISBN: 9781111969714
+        ISBN: 9781285381213
+        courseKey: MTPPPMXPZVKG  
+       
+    courseHistory:
+        courseName: "History_Automation"
+        coreTextISBN: "9781305583528"
+        courseKey: "MTPP97XP8P1D"
+        ISBN: "9781305583535"
+        activityLens: "5.4 Point-Counterpoint: Economic Lens"
+        studentName: "qad, student"
+        CXPDistinct: "CXP Distinct Activity"
+        parentactivityLens: "5.4 Point-Counterpoint: Choice"
+        HistoryactivityEssay: "24.7 Now & Then Essay Activity: Choice"
+        HistoryLensActivity: "24.5 Now & Then: Choice"
+        essayActivityTitle: "Instructor added Essay Activity"
+        lensActivityTitle: "Instructor created Lens Activity"
+        essayActivityDesc: "Added by inst"
+        EssayactivityTypeIndex: "narrative_with_conceptual"
+        lensActivityDesc: "adding lens for lens verificattion flow"
+        StudycenterTitle: "StudyCenter"
+        InfographicActivity: "4.1 Picturing History" 
+        CXPInfographicActivity: "7.1 Picturing History"
+        CXPConceptualNarrative : "1.2 A Growing World"
+        CXPContextualLens: "7.4 Getting to the Source: Choice"
+        CXPContextualLensFortake : "7.4 Getting to the Source"
+        CXPEssay: "23.7 Point-Counterpoint Essay Activity: Social Lens"
+        activityTutored: "1.2 A Growing World"
+        dueMonth: "September"
+        dueYear : "2017"
+        dueDate : "2"
+        unitName: "Unit 1: The Atlantic World and the Dawn of Exploration"
+        NarativeActivity: "1.3 Native American and West African Societies before Contact"
+        EssayActivity: "3.6 Why Does This Matter? Essay Activity: Economic Lens"
+        EssayActivityUnit: "Unit 24: America in a Global Context"
+        ParentEssayActivity: "24.7 Now & Then Essay Activity: Choice"
+        ChildEssayActivity: "24.7 Now & Then Essay Activity: American Artifacts Lens"
+        student: "prod, student"
+        student1: "2016, student1"
+        studentALS: "Student04, Ritesh"
+        knewtonStudent: "Student02, Knewton"
+            
+    courseHistoryNew:
+        courseName: "AutoHistoryCourse"
+        ISBN: "9781305583535"
+        courseKey: "MTPQ9CGP45X6"
+    courseHistoryCxp:
+        courseName: "History_CXPAutomation"
+        coreTextISBN: "9781305583528"
+        courseKey: "MTPN6KKP1R36"
+        ISBN: "9781305583535"
+        weeknumber: "week 44"
+        activityLens: "5.4 Point-Counterpoint"
+        studentName: "qad, student"
+        CXPDistinct: "CXP Distinct Activity"
+        HistoryactivityEssay: "24.7 Now & Then Essay Activity: Choice"
+        HistoryLensActivity: "24.5 Now & Then: Choice"
+        essayActivityTitle: "Instructor added Essay Activity"
+        lensActivityTitle: "Instructor created Lens Activity"
+        essayActivityDesc: "Added by inst"
+        EssayactivityTypeIndex: "narrative_with_conceptual"
+        lensActivityDesc: "adding lens for lens verificattion flow"
+        StudycenterTitle: "StudyCenter"
+        InfographicActivity: "4.1 Picturing History" 
+        CXPInfographicActivity: "7.1 Picturing History"
+        CXPConceptualNarrative : "1.2 A Growing World"
+        CXPContextualLens: "7.4 Getting to the Source: Choice"
+        CXPContextualLensFortake : "7.4 Getting to the Source"
+        CXPEssay: "23.7 Point-Counterpoint Essay Activity: Social Lens"
+        activityTutored: "1.2 A Growing World"
+        dueMonth: "September"
+        dueYear : "2017"
+        dueDate : "2"
+    courseAmGovtNew:
+        CourseName: American Govt Automation Course
+        courseKey: MTPN3CCPSQT5
+        ISBN: 9781305672628
+    courseAmGovt:
+        CourseName: AmGovt_Automation
+        courseKey: MTPNSDDPLNMF
+        ISBN: 9781305672628
+        activityEssay: "3.9 Why Politics Matters: Choice Essay Activity"
+        activityNarrative: "1.2 Declaring Independence"
+        StudycenterTitle: "StudyCenter"
+        ContexualLensActivityParent: "5.8 Why Politics Matters: Choice"
+        unitName: "Unit 1: The Constitution"
+        activityConnectingWithPolitics: 5.1 Connecting with Politics
+        discussionBoardTitle: "7.6 In the Know: Bureaucracy"
+        discussionBoardEdit: " http://ng.cengage.com/currentevents/#/?entitlement=sme"
+        contextualunitname: "Unit 5: Congress"
+        contextualParentChapter: "5.8 Why Politics Matters: Choice" 
+        contextualChildChapter: "5.8 Why Politics Matters: Youth and Politics"
+        connectingWithPoliticsChapterName: "8.1 Connecting with Politics"
+        connectingWithPoliticsUnitName: "Unit 8: Judiciary"
+    courseAmGovtCXP:
+        CourseName: Am.Govt_CXPAutomation
+        SearchCourseName: Am Govt for Search
+        courseKey: MTPPF8SP1R3D
+        ISBN: 9781305672628
+        searchCourseKey: MTPPNNGPDS4B
+        activityEssay: "8.9 Why Politics Matters: Choice Essay Activity"
+        activityNarrative: "1.2 Declaring Independence"
+        activityConnectingWithPolitics: "8.1 Connecting with Politics"
+        StudycenterTitle: "StudyCenter"
+        discussionBoardTitle: "2.6 In The Know: Federalism"
+        contextualLenschoice: "3.8 Why Politics Matters: Youth and Politics"
+        dueMonth: "September"
+        dueYear : "2017"
+        dueDate : "2"
+    courseKaltura:
+        unitName: "Chapter 1 Pre-Lecture: Ten Principles of Economics"
+        chapterName: "Pre-Lecture: Chapter 1 Learning Objectives "
+    courseInsite:
+        courseKey: MTPN47FP1MT1
+    courseATP:
+        courseName: ATP Automation course
+        ISBN: 9781285852430
+        coreTextISBN: 9781285165875
+        courseKey: MTPN4J8P9M06
+        appName: atp
+        QuestionCount: 100
+        AttemptQueCount: 6
+        customUnit: Automation Test Unit
+        customUnitDescription: Unit Created By Automation Script 
+    courseGB:
+        courseName: "Nechyba Microeconomics: An Intuitive Approach, 2e Ilana 11/09/2017"
+        ISBN: 9781305650541
+        coreTextISBN: 9781305115941
+        courseKey: MTPNJW2PM9SG  
+        pid: 533943
+        nbid: 655059
+        parentId: 242942479
+    courseGradeBook:
+        courseName: "Gradebook Testing"
+        coreTextISBN: "9780538482127"
+        courseKey: "MTPNF2PP8BN2"
+        ISBN: "9781133998945"
+    courseKnewtonAnderson:
+        coreTextISBN: "9781285431321"
+        courseName: "MindTap_23_May_2017_3_54"
+        courseKey: "MTPPC1FQR1MH"
+        ISBN: "9781305493032"
+        simpleAsessmentVideoActivity: "Video Quiz: Chapter 1"
+        productNameAnderson: "Andersen/Taylor: Sociology: The Essentials, 8e"
+        student: "Student01, Ritesh"
+        analyticsstudent: "Student07, Ritesh"
+        activitySimpleAssess: "Automation Simple Assessment Manual Graded Activity"
+    courseAndersonAnalytics:
+        coreTextISBN: "9781285431321"
+        courseName: "Anderson_Analytics_Course"
+        courseKey: "MTPNMP7P49W7"
+        ISBN: "9781305493032"
+        simpleAsessmentVideoActivity: "Video Quiz: Chapter 1"
+        productNameAnderson: "Andersen/Taylor: Sociology: The Essentials, 8e"
+        analyticsstudent: "Student07, Ritesh"
+        activitySimpleAssess: "Analytics Assessment Activity"
+    courseGulatiAnalytics:
+        courseName: "Gulati_Analytics_Course_Prod"
+        courseKey: "MTPN06JPS5F8"
+        ISBN: 9781305584143
+        coreTextISBN: "9780538478465"
+        productNameGulati: "Gulati: Management, 1e"
+        productNameGulati1: "SAA"
+        activitySimpleAssessGulati: "BestBest Score Activity"
+        analyticsstudent: "Student04, Ritesh"
+        AnalyticsReleaseActivity: "Gulati Analytics Activity"
+        studentALS: "Student04, Ritesh"
+    courseKnewtonGulati:
+        coreTextISBN: "9780538478465"
+        courseName: "GulatiCourse"
+        courseKey: "MTPP9BHQ9WH7"
+        ISBN: "9781305584143"
+        productNameGulati: "Gulati: Management, 1e"
+        productNameGulati1: "SAA"
+    courseAA:
+        courseName: "Automation_GradeBook"
+        coreTextISBN: 9781418072520
+        courseKey: "MTPPF71P84B6"
+        ISBN: 9781133354215
+    courseStudyHub:
+        courseName: Studyhub_mankiw
+        coreTextISBN: 9780538453059
+        ISBN: 9781133354017
+        courseKey: MTPP6DCP45WM
+        glossaryTerm: "abdominal cavity"
+    courseAndersen:
+        CourseName: "Andersen_ Automation course"
+        CourseKey: "MTPPTXJPSVCQ"
+        ISBN: 9781305493032
+    courseCSM:
+        CourseName: Automation_CSM
+        courseKey: MTPNQG9P4SVK
+        ISBN: 9781133354215
+        productName: "Ehrlich/Schroeder, Medical Terminology for Health Professions, 6th Edition"
+        ChapterName: "Introduction to Medical Terminology"
+        UnitName: "Introduction to Medical Terminology"
+        Chapter5: "Chapter 5: Test "
+        
+        
+        
+        
+    SOT:
+        name: Outline Builder
+        name1: Graded Activity
+        name2: Practice Activity
+        namedit: Edited Name by User
+        desc_edit: Edited Description by User
+        description1: Graded Activity through Automation
+        description2: Practice Activity through Automation
+        mulcques: Automation Multiple Choice Question
+        mulcans: Automation Multiple Choice Answer
+        mulsques: Automation Multiple Select Question
+        mulsans: Automation Multiple Select Answer
+        ques_edit: Automation Multiple Choice Question Edit
+        ans_edit: Automation Multiple Choice Answer Edit
+    courseWebVideo:
+        bookName: Mankiw_Principles of Economics_6e_CM
+        courseName: Mankiw
+        coreTextISBN: 9780538453059
+        ISBN: 9781133354017
+        courseKey: MTPPD8LPLDWR 
+        name: WebVideo Search
+        url: http://www.cnn.com
+        text: History
+        description: Video Activity Selected through Automation
+        newtext: History Edit
+        title: Distinct Web Video Activity
+        anothertitle: Distinct Web Video Activity Edit
+        anotherURL: http://www.google.com   
+        unitName: "Chapter 3: Interdependence and the Gains from Trade" 
+        chapterName: "Chapter 3: Interdependence and the Gains from Trade"
+        BeforeEditedDesc: Edited Web Video Text
+        AfterEditedDesc: Edited Web Video Text in After field    
+learningActivities:
+        AssignableActivity:
+            title: Assignment
+            name: Assignable Activity (Do Not Delete)
+            nameNew: Distinct Assignable Activity Edited
+            manualGradedActivityName: Manual Graded
+            autoPracticeActivityName: Practice Type 
+            autoGradedActivityName: Auto Graded Type Activity (Do Not Delete)
+            description: Automated distinct assignable activity
+            inlineActivityName: Inline Assignable Activity 2
+            inline: Inline Assignable Activity
+            dueDate: 01/01/2016
+            autoGrading: Auto
+            manualGrading: Manual
+            gradedType: graded
+            practiceType: practice
+            NotStartedAssignment: Not Started Assignment
+            FirstTakeInProgress: First Take In Progress
+            SecondTakeInProgress: Second Take In Progress
+            FirstTakeInProgressDueDatePassed: First Take In progress Due Date passed
+            TwoAttemptsSubmittedDueDateNotPassed: Two attempts Submitted Due Date not passed
+            FiveAttemptsSubmittedDueDateNotPassed: Five Attempts submitted Due date not passed
+            AssignmentBeforeDueAndAvailableDate: Assignment Before_Due_Date Before_Available_Date
+            AssignmentBeforeDueAndAfterAvailableDate: Assignment Before_Due_Date After_Available_Date
+            AssignmentInProgressBeforeDueAndAvailableDate: Assignment InProgress Before_Due_Date Before_Available_Date
+            AssignmentInProgressAfterDueAndAvailableDate: Assignment InProgress After_Due_Date After_Available_Date
+            CompletedAssignmentWithRemainingTakesBeforeDueAndAfterAvailableDate: Assignment Completed Remaining_Takes Before_Due_Date After_Available_Date
+            CompletedAssignmentWithRemainingTakesAfterDueAndAvailableDate: Assignment Completed Remaining_Takes After_Due_Date After_Available_Date
+            InlineAfterDueAndBeforeAvailableDate: Inline After_Due_Date Before_Available_Date
+            InlineAfterDueAndAvailableDate: Inline After_Due_Date After_Available_Date
+            InlineInProgressBeforeDueAndAfterAvailableDate: Inline InProgress Before_Due_Date After_Available_Date
+            InlineInProgressAfterDueAndAvailableDate: Inline InProgress After_Due_Date After_Available_Date
+            InlineCompletedWithRemainingTakesBeforeDueAndAfterAvailableDate: Inline Completed Remaining_Takes Before_Due_Date After_Available_Date
+            InlineCompletedWithRemainingTakesAfterDueAndAvailableDate: Inline Completed Remaining_Takes After_Due_Date After_Available_Date            
+        MediaActivity:
+            title: Media
+            name: Media Activity (Do Not Delete)
+            description: Automated distinct media activity
+        ReadingActivity:
+            title: Reading
+            activityName: Reading Activity
+            name: Reading Activity (Do Not Delete)
+            textbox_activityTitle: Text Box
+            unitName: "Chapter 1 Pre-Lecture: Ten Principles of Economics (DO NOT EDIT)"
+            chapterName: "1:Ten Principles of Economics"
+            activityForSearch: Reading Activity for Search
+            description: Automated distinct reading activity
+            textboxHead: Automation created textbox
+            textboxDesc: Automated description
+            textboxEditHead: Edited heading for textbox
+            textboxEditDesc: Edited description
+            readingChapterName: Chapter 1
+            pageNo: 4
+            nextPageNo: 5
+            TOC_Link: " How People Make Decisions "
+            Chapter7Unitname: "Chapter 7 Pre-Lecture: Consumers, Producers, and the Efficiency of Markets "
+            Chapter7name: "7: Consumers, Producers, and the Efficiency of Markets"
+            TOC_Link: " How People Make Decisions "
+            TOC_Link1: " Consumer Surplus "
+            TOC_Link2: " Producer Surplus "
+        AssignmentActivity:
+            title: Assignment
+            name1: VJ_Assignment1
+        TextBoxActivity:
+            title: Text
+            name: Inline Text Box Activity
+            newName: Inline Text Box Activity Edited
+            description: Automated distinct text box activity
+        BlogActivity:
+            name1: Blog Activity
+            name: Inline Blog Activity
+            fromDate: 05/01/2006
+            toDate: 05/01/2013
+            keyword: Math
+        RSSFeed:
+            name1: RSS Feed
+            rssFeedURL: http://rss.cnn.com/rss/edition_americas.rss
+            title: Automated RSS Feed App
+            name: Distinct RSS Feed Activity
+            description: Created by Automation Script
+            rssFeedSmoke: RSS Feed For Smoke
+        NonMindTap:
+            name: Non MindTap Activity
+            Gradedtitle: Distinct Graded Non MindTap Activity
+            Gradeddescription: Created by Automation Script(Graded)
+            Practicetitle: Distinct Practice Non MindTap Activity
+            Practicedescription: Created by Automation Script(Practice)
+            Graded_newtitle: Edited Distinct Graded Non MindTap Activity
+            Graded_newdescription: Edited by Automation Script(Graded)
+            Practice_newtitle: Edited Distinct Practice Non MindTap Activity
+            Practice_newdescription: Edited by Automation Script(Practice)
+            Error_title: new
+            WordMessage: This is an autogenerated message via automation script
+        VideoActivity:
+            title: Video
+            name: Distinct Video Activity
+            description: Automated Working Copy video activity.
+            webVideoKey: WebVideo App
+        FlashCardActivity:
+            name: Distinct Flash Card Activity
+            description: Automated distinct flash activity
+            flashKeyId: Impeachment
+            flashKeyValue: attempted but failed
+            flashCardKey: Automation
+            flashCardValue: The state of being operated automatically
+            flashSmoke: FlashCard Activity For Smoke
+            csvFileName: testFlash.csv
+        lamsActivity:
+            name: LAMS Lesson
+            title: Distinct LAMS Activity
+            subject: Test Automation
+            Description: LAMS Activity Created By Automation Script
+            newdescription: Edited LAMS Activity Created By Automation Script
+            newtitle: Edited Distinct LAMS Activity
+        insite:
+            courseKey: MTPN47FP1MT1 
+            courseName: Insite Course 
+            Peer_Ass_Name: PeerMark Assignment Activity
+            Paper_Ass_Name: Paper Assignment Activity
+            courseName: Wyrick
+        GoogleDoc:
+            gmailID: tapSpartan
+            paswrd: spartan@91
+            distinctTitle: Distinct Google Doc Activity
+            inlineTitle: Inline Google Doc Activity
+            googleSmoke: GoogleDoc Activity For Smoke 
+        Evernote:
+            title: Automation Evernote
+            description: Evernote created by Automation script
+        ProgressApp:
+            comment: Score commented by Automation script
+        Kaltura:
+            title: Distinct Kaltura Activity
+            kalturaSmoke: Kaltura Activity For Smoke
+            description: Automated distinct kaltura activity
+            inlineTitle: Edited Inline Kaltura Activity
+        WebLink:
+            name: Web Link Activity
+            url: http://www.cnn.com
+            text: Created by Automation Script
+            title: Distinct Web Link Activity
+            anotherURL: http://www.google.com
+            weblinkSmoke: WebLink Activity For Smoke
+        WebVideo:
+            name1: WebVideo Search
+            title: Distinct Web Video Activity
+            description: Video Activity Selected through Automation
+            keyWord: Automation Testing
+            beforeText: Before Activity Text
+            afterText: After Activity Text
+            webvideoSmoke: WebVideo Activity For Smoke
+        LamsActivity:
+            name1: LAMS Lesson
+            title: New1_ Assignment5.1
+            smokeTitle: New3_Assignment 5.1
+            description: LAMS Activity Selected through Automation
+            newDescription: Edited through Automated Script
+        GradeBookApp:
+            inlineActivityTitle: Inline Assignable Activity        
+            distintActivityTitle: Assignable Activity (Do Not Delete)
+        Cerego:
+            title: Distinct Cerego Activity
+            title2: Distinct Cerego Activity2
+            newTitle: New Distinct Cerego Activity
+            description: Created by automation script
+            description2: Created by automation script2
+            activityLabel: Cerego
+            activityLabel2: Cerego
+            activityReferenceID: set_731035
+            activityReferenceID2: set_731036  
+            key: set_id
+            key2: set_id2
+            value: "731035"
+            value2: "7310356" 
+            newDescription : Edited by automation script
+            item : Memories by Level
+        QuestiaApp:
+            name: Questia
+            title: Distinct Questia Activity
+            newTitle: Edited Distinct Questia Activity
+            inlineActivityTitle: Inline Questia Activity
+            newInlineActivityTitle: Edited Inline Questia Activity
+            description: Created by automation script          
+            newDescription: Edited by automation script
+            searchTerm: Open Road
+            unitName: "Chapter 3: Interdependence and the Gains from Trade" 
+            chapterName: "Chapter 3: Interdependence and the Gains from Trade"
+        SVR:
+            name: Speech Video Library
+            title: Distinct SVR activity
+            description: Created By Automation Script
+            searchKey1:  Hurricanes
+            newTitle: Edited SVR Activity
+            searchKey2: Speaks
+        SOT:
+            name: Outline Builder
+            title: Distinct SOT Activity
+            title2: Another Distinct SOT Activity
+            description: Created By Automation Script
+            question: Question Automated!
+            style: mla
+            template: Invitational Speech
+        IRC:
+            courseType:
+                newType:
+                    label: new
+                    CourseKey: MTSHITSB8R1K
+                existing: 
+                    label: existing
+                    CourseKey: MTPQLC4P3L29
+                another:
+                    label: another
+                    CourseKey: MTPQXV6PG85T
+            courseName1: Custom Automation Course I
+            courseName2: Custom Automation Course II
+            courseName3: Custom Automation Course III
+            activity1: Flashcards
+            activity2: ZTest Activity
+            
+        SearchTerms:
+          media: Distinct_Media_For_Search
+          assignment: Distinct_Assignment_For_Search
+          googledoc: Distinct_GoogleDoc_For_Search
+          kaltura: Distinct_Kaltura_For_Search
+          rss: Distinct_RSS_For_Search
+          weblink: Distinct_WebLink_For_Search
+          webvideo: Distinct_WebVideo_For_Search
+          inlineAssignment: Inline_Assignment_For_Search
+          inlineTextbox: Inline_TextBox_For_Search
+          inlineBlog: Inline_Blog_For_Search
+          inlineGoogleDoc: Inline_GoogleDoc_For_Search
+          inlineKaltura: Inline_Kaltura_For_Search
+          inlineRss: Inline_RSS_For_Search
+          inlineWeblink: Inline_WebLink_For_Search
+          inlineWebvideo: Inline_WebVideo_For_Search
+          searchresult: Your search did not return any results
+          inlineWCTextbox: Inline_TextBox_For_Search_In_WorkingCopy
+          inlineWCTextboxEdited: Inline_TextBox_For_Search_In_WorkingCopy_Edited
+          reading:
+            bodytext: Childbearing age
+            aheadtext: "The Road Less Traveled Peck, 2000"
+            bheadtext: Learning Exercises
+            chapterTitle: "Chapter 2: Special Industries"
+            glossary: lipoma
+            glossaryDefn: Term used for idealistic
+            footnote: The National Commission on Writing
+            table: "Table 3.1"
+            learningObj: "obj 6"
+            chapterReview: Chapter Review
+            sidebar: Enhance your competitive edge by developing professionalism and business etiquette skills
+            embedImg: "PepsiCo's Undaunted Leader"
+            figure: Figure 2
+            chapIntro: Chapter Introduction
+            splashPage: About Cengage Learning
+            appendix: "Appendix 9.2"
+            map: "Map 16.1 The Reconstruction"
+            mapSection: "16-4e"
+        ProtectedLink:
+            url: http://s-college.cengage.com/psychology/martin/child_dev/2e/assets/students/protected/redeem.html
+            title: Inline Text Box Activity with Protected Link
+        YouSeeU:
+            Appname: YouSeeU
+            activity: YouSeeU
+            name: Distinct YouSeeU Activity
+            type: Document Submission
+            instruction: Created by Automation Script
+            gradingType: Pass/Fail
+            gradingType1: Grade Entry
+            rubrics: Distinct rubrics Activity
+        StudyHub:
+            mode: Reading
+            chapterName: Test:The Beginning of the End
+            readingPageReview: Review
+            readingPageIntro: Introduction
+            bmarkuname: "Interdependence and the Gains from Trade"
+            highlight :
+                text1: Every society needs
+            colors :
+                orange : ORANGE
+                blue : BLUE
+            notes : 
+                text: power of judicial review   
+                description: Automated  by script
+            instStudyGuide: Instructor created study guide
+            studStudyGuide: Student created study guide
+            sortScheme: Type
+            bookmark: The Origins of Judicial
+
+        LearningLabs:
+            name: Learning Labs
+            title: Distinct Learning Labs Activity
+            newTitle: Edited Distinct Learning Labs Activity
+            description: Created by automation script          
+            newDescription: Edited by automation script
+            
+        LPN:
+            FolderName: Test Folder (Do not Delete)
+            UnitName: Test Unit (Do not Delete)    
+            
+        Announcement:
+            title: QA Testing
+            description: QA Testing     
+        
+        SAM:
+           courseName: 5Nov Course
+           coreTextISBN: 9781305880979
+           ISBN: 9781305881013
+           courseKey: MTPN7HSP8L1N
